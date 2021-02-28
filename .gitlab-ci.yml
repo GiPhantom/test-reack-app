@@ -9,8 +9,14 @@ install_dependencies:
   artifacts:
     paths:        
       - node_modules  
-
-run_test:
+#yarn.log  key cacsh
+  cache:
+    key:
+      files:
+        - yan.lock        
+    paths:
+      - node_modules
+run_tests:
   stage: test
   script: CI=true yarn test
     
