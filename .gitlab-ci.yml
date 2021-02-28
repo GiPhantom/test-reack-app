@@ -16,6 +16,7 @@ install_dependencies:
         - yan.lock        
     paths:
       - node_modules
+# .eslintrc.js plugin "error" linter off         
 run_tests:
   stage: test
   script: CI=true yarn test
