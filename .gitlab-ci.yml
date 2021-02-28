@@ -9,7 +9,7 @@ install_dependencies:
   artifacts:
     paths:        
       - node_modules  
-#yarn.log  key cacsh
+#yarn.log  key cacsh artifacts
   cache:
     key:
       files:
