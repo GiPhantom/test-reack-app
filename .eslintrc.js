@@ -20,7 +20,7 @@ module.exports = {
      },
 //	"eslint:recommended",
 //	"plugin:react/recommended"
-    
+
     "parserOptions": {
         "ecmaFeatures": {
             "jsx": true
@@ -41,5 +41,5 @@ module.exports = {
       "excludedFiles": "*.test.js",
       "rules": {
         "quotes": ["error", "single"]
-      }			 
+      }
 };
